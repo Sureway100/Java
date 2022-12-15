@@ -1,4 +1,4 @@
-package VideoSession_MethodChallenge;
+package VideoSession_Exercises;
 
 public class HelloWorld {
     public static void main(String[] args) {
