@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/brown_background"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/lblHeader"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="137dp"
+        android:layout_marginBottom="343dp"
+        android:text="Unit Converter App"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/lblResult"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtInput"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="77dp"
+        android:ems="10"
+        android:hint="Enter Value of Kilo"
+        android:inputType="numberDecimal"
+        android:tooltipText="@string/app_name"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblHeader"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="240dp"
+        android:backgroundTint="#6E3801"
+        android:inputType="numberDecimal"
+        android:text="Convert"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lblResult"
+        android:layout_width="wrap_content"
+        android:layout_height="82dp"
+        android:textSize="32sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn" />
+</androidx.constraintlayout.widget.ConstraintLayout>
