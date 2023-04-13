@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CreateMessage</string>
+    <string name="hint">Enter a message</string>
+    <string name="sendMessage">Send Message</string>
+    <string name="smsHeader">SHORT MESSAGE</string>
+    <string name="chooser">Send message via...</string>
+
+</resources>
