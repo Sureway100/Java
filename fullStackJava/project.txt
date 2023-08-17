@@ -1,0 +1,13 @@
+# installation instruction on pc...
+- changed existing java home to java homex but in system and user variables
+- then in the system variables add java 17 bin folder path.
+
+#launching jshell 
+- jshell
+-/exist
+
+
+#Expressions
+- operations => 5*6
+- operators => *
+- operands => 5 and 6
